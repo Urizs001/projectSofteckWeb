@@ -1,0 +1,76 @@
+/*css para el contacto*/
+.fromulario{
+    background-color: #34b2f1;
+    width: min(60rem , 100%); /*Utiliza el valor mas pequeño*/
+    margin: 0 auto;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.fromulario fieldset{
+    border: none;
+}
+
+.fromulario legend{
+    text-align: center;
+    font-size: 1.8 rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    color:#b9b9cb ;
+}
+
+.boton{
+    background-color: #0b66a3;
+    color: #000000; /* Color de letra del boton embiar*/
+    padding: 1rem 3rem;
+    margin-top: 2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: .5rem;
+    width: 90%;
+    text-align: center;
+    border: none;
+}
+
+.campo{
+    margin: 1rem;
+}
+
+.campo label{  /*Texto de los campos del formulario*/
+    color: white;
+    font-weight: bold;
+    margin-bottom: .5rem;
+    display: block;
+}
+
+.campo textarea{
+    height: 20rem;
+
+}
+
+.input-text{
+    width: 100%;
+    border: none;
+    padding: 1.5rem;
+    border-radius: .5rem;
+    
+}
+
+h2{
+    text-align: center;
+    font-size: 35px; /* tamaño de la latra de compra*/
+    text-align: left;
+}
+
+#button{
+    text-align: center;
+}
+
+body {
+    background-color: #20268b;
+}
+
+
+
+

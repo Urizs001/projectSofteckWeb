@@ -1,0 +1,66 @@
+/*Esto se apliva a todo el documento*/
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0015ffa2; /* Color de fon do de todala pagina principal de index*/
+    
+}
+
+header{
+    width: 100%;
+    height: 50px;
+    background-color: #0513a5; /*color de la filadel menu*/
+    color: #f31616;
+    position: fixed;/*Asigna una posicion fija*/
+    top: 0;/*top y left hacen que no hayya margen*/
+    left: 0;
+    z-index: 100;/*Se sobre ponen de cualquier objeto*/
+}
+
+.contenedor{
+    width: 98%;
+    margin: auto;
+}
+
+/*Posicionamos el menu en la misma linea*/
+h1{
+    float: left;/*Se decplaza el texto hacia la izquierda*/
+        text-shadow: 
+    -1px -1px 0 #2908a0, 
+    1px -1px 0 #2908a0,
+    -1px 1px 0 #2908a0,
+    1px 1px 0 #2908a0; 
+    color: rgb(10, 10, 10);
+}
+
+header.contenedor{
+    display: table;/**/
+}
+
+
+
+/*Efecto para cambiar de color y de sombras de los 
+iconos de fontello o de las redes sociales de la pagina principal.*/
+footer .sociales {
+    text-shadow: 
+    -1px -1px 0 #000000, /* Azul Marino */
+    1px -1px 0 #000000,
+    -1px 1px 0 #000000,
+    1px 1px 0 #000000; 
+    color: #FFFFFF; /* Blanco */
+}
+
+
+
+
+
+
+
+
+
+

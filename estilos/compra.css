@@ -1,0 +1,87 @@
+.formulario {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #1967b5cb; /* Color de fondo del formulario*/
+    border-radius: 10px;
+    box-shadow: 0 0 10px #6a06f7;/*color de fon do del formulario*/
+}
+
+.formulario fieldset {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+.formulario legend {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.contenedor-campos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.campo {
+    flex: 1 1 calc(50% - 20px);
+    display: flex;
+    flex-direction: column;
+}
+
+.campo label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.campo input,
+.campo textarea {
+    padding: 10px;
+    border: 1px solid #000000; /*Color del contorno de los campos del formulario*/
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.campo input[type="file"] {
+    padding: 3px;
+}
+
+.campo textarea {
+    height: 100px;
+    resize: none;
+}
+
+#button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.boton {
+    padding: 10px 20px;
+    border: none;
+    background-color: #83ced7;/*Color de fondo del boton embiar*/
+    color: #010101; /*Color de letra del boton embiar*/
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.boton:hover {
+    background-color: #0027b3; /*color de fondo del boton embiar*/
+}
+
+body {
+    background-color: #12aad0; /*color de fondo de la pagina del formulario compra*/
+}
+
+h2{
+    text-align: center;
+
+    font-size: 35px; /* tamaño de la latra de compra*/
+    text-align: left;
+}
+
+
+

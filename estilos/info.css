@@ -1,0 +1,32 @@
+/*aplicar color de fondo a negro y latra*/
+#info{
+    background-color: #000000; /*color de fondo de las imagenes principales index*/
+    color: #ffffff; /*Color de la letra*/
+    text-align: center;
+    padding: 20px;
+}
+/*colocae img en una tabla centrada*/
+#info .contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+/*aplicar estilo circular a las imagenes*/
+/*Estilo circular  a las imagenes */
+.info-imagen img
+{
+width: 180px;
+height: 180px;
+box-shadow: 10px 5px  5px 
+#3704ef; /*Añade efecto de sombra al rededor del elemento*/
+
+/*Redondear las esquinas del borde de las imagenes */
+border-radius: 50%;
+border: 7px solid #04ccef;
+}
+
+
+
+ 
