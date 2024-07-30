@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Tienda online de Motos</title>
+    <link rel="stylesheet" href="estilos/principal.css">
+    <link rel="stylesheet" href="estilos/fontello.css">
+    <link rel="stylesheet" href="estilos/menu.css">
+    <link rel="stylesheet" href="estilos/banner.css">
+    <link rel="stylesheet" href="estilos/blog.css">
+    <link rel="stylesheet" href="estilos/info.css">
+    <link rel="stylesheet" href="estilos/footer.css">
+    <link rel="stylesheet" href="estilos/compra.css">
+</head>
+
+<body>
+    <header>
+        <div class="contenedor">
+            <h1 class="icon-infinito">ProjectSofteck</h1>
+            <input type="checkbox" id="menu-bar">
+            <label class="icon-menu" for="menu-bar"></label>
+            <nav class="menu">
+                <a href="index.html">Inicio</a>
+
+                <a href="compra.html">Compra</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="banner">
+            <img src="imagenes/banner001.jpg" alt="Banner Chainsaw Man">
+            <div id="contenedor">
+                <h2>Compra la moto de tus sueños</h2>
+                <p>Recuerda la aventura empieza sobre dos ruedas.</p>
+                <a href="mas.html">Leer más</a>
+            </div>
+        </section>
+
+        <section>
+            <h2>Contacto</h2>
+            <form class="formulario" enctype="multipart/form-data">
+                <fieldset>
+                    <legend>Contactanos llenando los siguientes campos para la compra de tu moto</legend>
+                    <div class="contenedor-campos">
+                        <div class="campo">
+                            <label for="opcion">Elige una opción:</label>
+                            <input type="text" id="opcion" name="opcion" placeholder="Opción" class="input-text">
+                        </div>
+
+                        <div class="campo">
+                            <label for="nombre">Nombre:</label>
+                            <input type="text" id="nombre" name="nombre" placeholder="Ingresa tu Nombre" class="input-text">
+                        </div>
+
+                        <div class="campo">
+                            <label for="telefono">Teléfono:</label>
+                            <input type="tel" id="telefono" name="telefono" placeholder="Ingresa tu Teléfono" class="input-text">
+                        </div>
+
+                        <div class="campo">
+                            <label for="correo">Correo:</label>
+                            <input type="email" id="correo" name="correo" placeholder="Ingresa tu Email" class="input-text">
+                        </div>
+
+                        <div class="campo">
+                            <label for="mensaje">Mensaje:</label>
+                            <textarea id="mensaje" name="mensaje" placeholder="Ingresa tu Mensaje" class="input-text"></textarea>
+                        </div>
+
+                        
+                    </div>
+                    <div id="button">
+                        <input type="submit" class="boton" value="Enviar">
+                    </div>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+    
+
+</body>
+
+</html>

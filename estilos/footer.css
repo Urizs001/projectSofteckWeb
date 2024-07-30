@@ -1,0 +1,24 @@
+/*colocar los elementos en una tabla centrada*/
+
+footer .contenedro{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.pie{
+    font-size: 20px;
+    text-align: center;
+    color: azure;
+}
+
+.sociales{
+    text-align: center;
+    width: 100%;
+    font-size: 25px;
+}
+
+.sociales a{
+    text-decoration: none;
+    color: #000000; /*color de los iconos de las redes sociales*/
+}

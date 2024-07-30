@@ -1,0 +1,65 @@
+#menu-bar {
+    display: none;
+    /*El elemento ya no ocupara espacio*/
+}
+
+header label {
+    float: right;
+    font-size: 150%;
+    margin: 6px;
+    cursor: pointer;
+}
+
+/*Agregar Estilos al menu*/
+.menu {
+    position: absolute;
+    /*Se coloca en relacion al elemento mas cercano*/
+    width: 100%;
+    height: 100%;
+    background-color: #081eab;
+    top: 50px;
+    /*Aplica border del margen superior*/
+    transition: all .5s;
+    /*tiempo de transicion*/
+    transform: translateX(100%);/*traslada hacia la izquierda*/
+}
+
+/*el hover indica el color del menu*/
+.menu a:hover {
+    background-color: #3134f9;
+}
+
+/*Programamos el clic del menu para mostrarlo*/
+#menu-bar:checked~.menu {
+    transform: translateX(0%);
+}
+
+.menu a {
+    display: block;
+    color: #090909;
+    height: 50px;
+    text-decoration: none;
+    padding: 15px;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+/*Diseño responsivo para pantallas de computadoras*/
+
+@media(min-width:1024px) {
+    .menu {
+        position: static;
+        width: auto;
+        height: auto;
+        transform: translateX(00%);
+        float: right;
+        display: flex;
+    }
+
+    .menu a { /* Corrige la selección */
+        border: none;
+    }
+}
+
+.contenedor .icon-menu{ /* Para dar color al boton de menu*/
+    color:#000000 ;
+}
